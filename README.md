@@ -1,4 +1,4 @@
-# Formoção C#, 03 Algoritmos
+# Formação C#, 03 Algoritmos
 C# - 03 - Algoritmos
 
 # Conteudo do Curso
