@@ -32,7 +32,6 @@ namespace algoritmos_treinaweb
                 Console.WriteLine(letras[i]);
             }
             
-            
             static int BuscarItem(int[] array, int itemBuscado)
             {
                 for(int i = 0; i < array.Length; i++)
@@ -49,7 +48,6 @@ namespace algoritmos_treinaweb
 
             var itemBuscado = 20;
 
-            
             for(int i = 0; i < itens.Length; i++)
             {
                 Console.WriteLine(itens[i]);
@@ -62,7 +60,6 @@ namespace algoritmos_treinaweb
             }
 
             Console.WriteLine(BuscarItem(itens, itemBuscado));
-            
             
             var vetor = new int[]{ 4, 1, 5, 3, 2};
 
@@ -90,7 +87,6 @@ namespace algoritmos_treinaweb
             {
                 Console.Write($"{ vetor[i] }");
             }
-            */
 
             // Busca binária
             var vetor = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
@@ -126,6 +122,8 @@ namespace algoritmos_treinaweb
             {
                 Console.WriteLine($"O elemento de valor { buscado } encontra-se no índice { indiceBuscado }");
             }
+            */
+            
         }
     }    
 }
